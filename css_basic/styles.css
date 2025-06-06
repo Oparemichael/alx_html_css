@@ -1,3 +1,30 @@
+.logo {
+  font-size: 2em;         /* Makes the logo character larger */
+  font-weight: bold;      /* Makes it bold */
+  margin-right: 20px;     /* Adds space between logo and other items */
+  color: #D4AF37;         /* Optional: gives it a nice color */
+}
+.main-nav {
+  display: flex;           /* Makes the list horizontal */
+  list-style: none;        /* Removes bullet points */
+  justify-content: center; /* Centers the nav items horizontally */
+  padding: 0;
+  margin: 0;
+  align-items: center;     /* Vertically centers items */
+  gap: 20px;               /* Adds space between items */
+}
+
+.main-nav li {
+  color: #F8F8F8; /*Accent: gold on hover */
+  padding: 10px;
+  cursor: pointer;
+}
+
+.main-nav li:hover {
+   color: #D4AF37; /* Accent: gold on hover */
+}
+
+
 body {
   display: flex;
   flex-direction: column;
@@ -6,7 +33,7 @@ body {
 }
 
 header, footer {
-  background-color: #ccc;
+  background-color: #2E2E2E;;
   padding: 10px;
   text-align: center;
 }
@@ -21,12 +48,13 @@ article {
   flex: 2;
   overflow-y: auto;
   padding: 10px;
-  background-color: #f9f9f9;
+  background-color: #F8F8F8;
+  color: #1C1C1C; /* Text: soft black */
 }
 
 aside {
   flex: 1;
   overflow-y: auto;
   padding: 10px;
-  background-color: #e9e9e9;
+  background-color: #EFEFEF; /* Light gray for contrast */
 }

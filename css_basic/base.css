@@ -1,4 +1,7 @@
 body {
+    
+    background-color: #F8F8F8; /* Secondary: clean background */
+    color: #1C1C1C; /* Text: soft black for readability */
     font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
@@ -6,24 +9,30 @@ body {
 }
 
 header {
-    background: #333;
-    color: #fff;
+    background: #2E2E2E;
+    color: #F8F8F8;
     padding: 10px 0;
     text-align: center;
 }
-
+header h1 {
+    font-size: 2em; /* Makes the logo character larger */
+    font-weight: bold; /* Makes it bold */
+    margin: 0;
+    color: #D4AF37; /* Optional: gives it a nice color */
+}
 nav {
     margin: 20px 0;
+    list-style: none;        /* Removes bullet points */
 }
 
 nav a {
-    color: #333;
+    color: #e0dddd;
     text-decoration: none;
     padding: 5px 10px;
 }
 
 nav a:hover {
-    background: #ddd;
+    background: #493904;
 }
 
 .container {
@@ -35,8 +44,8 @@ nav a:hover {
 footer {
     text-align: center;
     padding: 10px 0;
-    background: #333;
-    color: #fff;
+    background: #2E2E2E;
+    color: #F8F8F8;
     position: relative;
     bottom: 0;
     width: 100%;
