@@ -37,6 +37,11 @@ header, footer {
   padding: 10px;
   text-align: center;
 }
+h2{
+  color: #1C1C1C; /* Text: soft black for readability */
+  margin-top: 0;
+  text-align: center;
+}
 
 main {
   display: flex;
