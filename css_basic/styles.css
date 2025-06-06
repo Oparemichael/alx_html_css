@@ -43,6 +43,11 @@ h2{
   text-align: center;
 }
 
+h2:hover {
+  color:#D4AF37; /* Accent: gold on hover */
+  text-decoration: underline; /* Adds an underline on hover */
+}
+
 main {
   display: flex;
   flex-direction: row;
