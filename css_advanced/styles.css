@@ -5,6 +5,12 @@ body {
     color: white;
 }
 
+.section-1 {
+    background-image: url('./images/object.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -50,7 +56,7 @@ span {
 
 button {
     margin-top: 30px;
-    background-color: #ff5c8a;
+    background-color: #C271FF;
     border: none;
     padding: 15px 40px;
     color: white;
@@ -93,4 +99,267 @@ h2 {
 .instructors p {
     font-size: 14px;
     color: #ddd;
+}
+
+.quote-block {
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+    flex-wrap: wrap;
+    background-color: #C271FF;
+}
+
+.quote-block blockquote {
+    text-align: left;
+    max-width: 2000px;
+}
+
+.quote-block img {
+    width: 120px;
+    height: 120px;
+   /* border-radius: 50%;
+    border: 3px solid white;*/
+    object-fit: cover;
+}
+
+.quote-block h3 {
+    margin: 15px 0 15px;
+    margin-left: 45px;
+    font-size: 18px;
+    text-align: left;
+    max-width: 500px;
+}
+
+.quote-block p {
+    font-size: 16px;
+    color: #ddd;
+    text-align: left;
+    margin-left: 45px;
+}
+
+
+/* General Reset */
+section {
+  padding: 4rem 2rem;
+  max-width: 1200px;
+  margin: auto;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Section Headings */
+section h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* Most Popular Tutorials */
+.popular-tutorials .tutorials-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.tutorial-card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.thumbnail {
+  position: relative;
+}
+
+.thumbnail img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(255, 255, 255, 0.8);
+  color: #C271FF;
+  padding: 0.5rem;
+  border-radius: 50%;
+  font-size: 1.2rem;
+}
+
+.tutorial-card h3 {
+  margin: 1rem 0 0.5rem;
+  font-size: 1.1rem;
+  color: #1f1c2c;
+}
+
+.tutorial-card p {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.author img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.author h4 {
+    color: #6a1b9a;
+}
+
+.rating {
+  margin: 0.5rem 0;
+}
+
+.rating .fa-star.purple {
+  color: #6a1b9a;
+}
+.rating .fa-star.white {
+  color: #d7a7f7;
+}
+.duration {
+  font-size: 0.85rem;
+  color: #999;
+}
+
+/* Free Membership */
+.membership {
+     background-color: #071629;
+}
+.membership-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  text-align: center;
+}
+
+.membership-card img {
+  width: 60px;
+  margin-bottom: 1rem;
+}
+
+.membership-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.membership-card p {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.register-btn {
+  display: block;
+  margin: 2rem auto 0;
+  padding: 0.75rem 2rem;
+  background-color: #6a1b9a;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+/* FAQ Section */
+.faq {
+  background-color: #fff;
+  padding: 4rem 2rem;
+  max-width: 1200px;
+  margin: auto;
+  font-family: 'Arial', sans-serif;
+}
+
+.faq h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 3rem;
+  font-weight: bold;
+  color: #1f1c2c;
+
+}
+
+.faq-columns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.faq-column {
+  flex: 1;
+  min-width: 300px;
+}
+
+.faq-item {
+  margin-bottom: 2rem;
+}
+
+.faq-item h3 {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.faq-item p {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+.site-footer {
+  background-color: #071629; /* dark blue */
+  color: white;
+  padding: 2rem;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+}
+
+.footer-left {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.footer-left img {
+  width: 40px;
+  height: 40px;
+}
+
+.brand-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.footer-center {
+  color: #aaa;
+  font-size: 0.9rem;
+  flex: 1;
+  text-align: center;
+}
+
+.footer-right i {
+  background-color: white;
+  color: #071629;
+  border-radius: 50%;
+  padding: 0.5rem;
+  margin-left: 0.5rem;
+  font-size: 1rem;
 }
