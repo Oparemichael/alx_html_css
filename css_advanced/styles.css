@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(to top, #1f1c2c, #928dab);
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+}
+
+nav img {
+    height: 60px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+main section {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+span {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+button {
+    margin-top: 30px;
+    background-color: #ff5c8a;
+    border: none;
+    padding: 15px 40px;
+    color: white;
+    font-size: 18px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+h2 {
+    font-size: 36px;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.instructors {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.instructors div {
+    text-align: center;
+    max-width: 200px;
+}
+
+.instructors img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid white;
+}
+
+.instructors h3 {
+    margin: 15px 0 5px;
+    font-size: 18px;
+}
+
+.instructors p {
+    font-size: 14px;
+    color: #ddd;
+}
