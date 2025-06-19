@@ -130,3 +130,13 @@ main {
 section {
     margin-bottom: 40px;
 }
+
+/* What we do section */
+.what-we-do {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    color: #000;
+}
+
