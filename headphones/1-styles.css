@@ -133,10 +133,52 @@ section {
 
 /* What we do section */
 .what-we-do {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    color: #000;
+  text-align: center;
+  padding: 3em 1em;
+  background-color: #f9f9f9;
 }
+
+.what-we-do h2 {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+
+.what-we-do p {
+  max-width: 600px;
+  margin: 0 auto 2em;
+  color: #666;
+}
+
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2em;
+}
+
+.service {
+  width: 200px;
+  padding: 1em;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.service span {
+  font-size: 48px;
+  color: #e74c3c;
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+.service h3 {
+  font-size: 1.2em;
+  margin-bottom: 0.5em;
+}
+
+.service p {
+  font-size: 0.9em;
+  color: #777;
+}
+
 
