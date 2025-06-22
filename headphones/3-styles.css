@@ -117,8 +117,8 @@ h2,p {
 }
 
 .intro-paragraph {
-    margin-right: 200px;
-    margin-left: 200px;
+    margin-right: 50px;
+    margin-left: 50px;
     font-size: 1.2em;
     overflow-wrap: normal;
     text-align: center;
@@ -182,4 +182,64 @@ section {
   color: #777;
 }
 
+/* Our Results Section*/
+.our-results-section {
+  background-image: url('./images/headphones_hero_2.jpg'); 
+  background-position: center;
+  background-size: cover;/* Or use a background image */
+  color: white;
+  padding: 50px 20px;
+  text-align: center;
+}
 
+.our-results-section h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.our-results-section p {
+  font-size: 16px;
+  max-width: 800px;
+  margin: 0 auto 40px;
+  text-wrap: normal;
+}
+
+.pentagon-row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.pentagon-box {
+  position: relative;
+  width: 150px;
+  height: 150px;
+}
+
+.pentagon-box img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.pentagon-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  pointer-events: none;
+}
+
+.pentagon-text .percent {
+  font-size: 1.2em;
+  display: block;
+}
+
+.pentagon-text p {
+  font-size: 0.9em;
+  margin: 0;
+}
