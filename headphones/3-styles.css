@@ -243,3 +243,58 @@ section {
   font-size: 0.9em;
   margin: 0;
 }
+
+.contact-us-section {
+  padding: 60px 20px;
+  background-color: #fff;
+}
+
+.contact-us-container {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 30px;
+  border: none;
+  /*border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); */
+}
+
+.contact-us-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact-us-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-us-container label {
+  margin-bottom: 1px;
+  font-weight: bold;
+}
+
+.contact-us-container input,
+.contact-us-container textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.contact-us-container .cta-button {
+  background-color: #ff6b6b;
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease;
+}
+
+.contact-us-container .cta-button:hover {
+  background-color: #e55a5a;
+}
